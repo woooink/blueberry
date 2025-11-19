@@ -2,6 +2,6 @@ import streamlit as st
 
 st.title("첫 웹앱 입니다 !")
 name = st.text_input("이름을 입력해 주세요! : ")
-menu = st.selectbox("좋아하는 맛을 선택해 주세요: ", ["아몬드봉봉", "엄마는 외계인"])
+menu = st.selectbox("좋아하는 맛을 선택해 주세요: ", ["아몬드봉봉", "엄마는 외계인", "민트 초콜릿", "바람과 함께 사라지다", "레인보우 샤베트"])
 if st.button("문장 생성"):
   st. write(name+"님 안녕하세요. 좋아하는 맛은 "+ menu + "이군요!")
